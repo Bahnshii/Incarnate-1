@@ -1,0 +1,392 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &-2374164859510080725
+MonoBehaviour:
+  m_ObjectHideFlags: 3
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1174674681, guid: df2ec02f61e861546b9427c26ccacb8d, type: 3}
+  m_Name: LocalizationManager
+  m_EditorClassIdentifier: 
+  OnLanguageChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  mUseLocalization: 0
+  mLanguage: en
+  mThrowOnMissingText: 0
+  mClearOnLanguageSwitch: 1
+  mExportLanguage: en
+--- !u!114 &-2346060619727389817
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8a91be036e3e72c4db3dbaa93d142594, type: 3}
+  m_Name: DefaultGlobalVariables
+  m_EditorClassIdentifier: 
+  BoolVariableCache:
+  - mFullQualifiedName: Act1.AskSelf
+    mVar:
+      values: 00
+  - mFullQualifiedName: Act1.AskAdvisor
+    mVar:
+      values: 00
+  - mFullQualifiedName: Act1.AskAssassin
+    mVar:
+      values: 00
+  - mFullQualifiedName: Act1.ScornedChosen
+    mVar:
+      values: 00
+  - mFullQualifiedName: Act1.AssassinChosen
+    mVar:
+      values: 00
+  - mFullQualifiedName: Act1.MercenaryChosen
+    mVar:
+      values: 00
+  - mFullQualifiedName: Act1.NewVariable
+    mVar:
+      values: 00
+  - mFullQualifiedName: Act1.MistressEmpath
+    mVar:
+      values: 00
+  - mFullQualifiedName: Act1.RefuseBodyguard
+    mVar:
+      values: 00
+  - mFullQualifiedName: ConvAssassin.AssassinConvo
+    mVar:
+      values: 00
+  - mFullQualifiedName: ConvAssassin.ConvPoint11
+    mVar:
+      values: 00
+  - mFullQualifiedName: ConvAssassin.ConvPoint12
+    mVar:
+      values: 00
+  - mFullQualifiedName: ConvAssassin.ConvPoint14
+    mVar:
+      values: 00
+  - mFullQualifiedName: ConvAssassin.ConvPoint13
+    mVar:
+      values: 00
+  - mFullQualifiedName: ConvAssassin.LikeDanger
+    mVar:
+      values: 00
+  - mFullQualifiedName: ConvAssassin.BodyguardRequest
+    mVar:
+      values: 00
+  - mFullQualifiedName: ConvAssassin.Flirtation
+    mVar:
+      values: 00
+  - mFullQualifiedName: ConvAssassin.Conv3Why
+    mVar:
+      values: 00
+  - mFullQualifiedName: ConvAssassin.ConvoPoint31
+    mVar:
+      values: 00
+  - mFullQualifiedName: ConvAssassin.Spawn
+    mVar:
+      values: 00
+  - mFullQualifiedName: ConvAssassin.Wantthosethings
+    mVar:
+      values: 00
+  - mFullQualifiedName: ConvAssassin.Goodtime
+    mVar:
+      values: 00
+  - mFullQualifiedName: ConvAssassin.Bond
+    mVar:
+      values: 00
+  - mFullQualifiedName: ConvAssassin.Patient
+    mVar:
+      values: 00
+  - mFullQualifiedName: ConvAssassin.QuickReputation
+    mVar:
+      values: 00
+  - mFullQualifiedName: ConvAssassin.Unchained
+    mVar:
+      values: 00
+  - mFullQualifiedName: ConvAssassin.Floor
+    mVar:
+      values: 00
+  - mFullQualifiedName: ConvAssassin.Getup
+    mVar:
+      values: 00
+  - mFullQualifiedName: ConvMerc.Spawn
+    mVar:
+      values: 00
+  - mFullQualifiedName: ConvMerc.MercConvo
+    mVar:
+      values: 00
+  - mFullQualifiedName: ConvMerc.Flirtation
+    mVar:
+      values: 00
+  - mFullQualifiedName: ConvMerc.Bond
+    mVar:
+      values: 00
+  - mFullQualifiedName: ConvMerc.Wantthosethings
+    mVar:
+      values: 00
+  - mFullQualifiedName: ConvMerc.NoDecisionYet
+    mVar:
+      values: 00
+  - mFullQualifiedName: ConvMerc.AskedAssassin
+    mVar:
+      values: 00
+  - mFullQualifiedName: ConvMerc.AskedScorned
+    mVar:
+      values: 00
+  - mFullQualifiedName: ConvMerc.ScornedQ
+    mVar:
+      values: 00
+  - mFullQualifiedName: ConvMerc.AssassinQ
+    mVar:
+      values: 00
+  - mFullQualifiedName: ConvMerc.InThePit
+    mVar:
+      values: 00
+  - mFullQualifiedName: ConvMerc.BuildReputation
+    mVar:
+      values: 00
+  - mFullQualifiedName: ConvScorned.ScornedConvo
+    mVar:
+      values: 00
+  - mFullQualifiedName: ConvScorned.Convo1End
+    mVar:
+      values: 00
+  - mFullQualifiedName: ConvScorned.Flirtation
+    mVar:
+      values: 00
+  - mFullQualifiedName: ConvScorned.Forging
+    mVar:
+      values: 00
+  - mFullQualifiedName: ConvScorned.Facecovered
+    mVar:
+      values: 00
+  - mFullQualifiedName: RelationshipAssassin.Flirtation
+    mVar:
+      values: 00
+  - mFullQualifiedName: RelationshipAssassin.Intimate
+    mVar:
+      values: 00
+  - mFullQualifiedName: RelationshipAssassin.Platonic
+    mVar:
+      values: 00
+  - mFullQualifiedName: RelationshipAssassin.Kiss
+    mVar:
+      values: 00
+  - mFullQualifiedName: RelationshipAssassin.Hardestthing
+    mVar:
+      values: 00
+  - mFullQualifiedName: RelationshipScorned.Platonic
+    mVar:
+      values: 00
+  - mFullQualifiedName: RelationshipScorned.Intimate
+    mVar:
+      values: 00
+  - mFullQualifiedName: RelationshipScorned.Flirtation
+    mVar:
+      values: 00
+  - mFullQualifiedName: RelationshipScorned.LongTime
+    mVar:
+      values: 00
+  - mFullQualifiedName: RelationshipMercenary.Flirtation
+    mVar:
+      values: 00
+  - mFullQualifiedName: RelationshipMercenary.Intimate
+    mVar:
+      values: 00
+  - mFullQualifiedName: RelationshipMercenary.Platonic
+    mVar:
+      values: 00
+  - mFullQualifiedName: RelationshipMercenary.EverythingisManipulation
+    mVar:
+      values: 00
+  - mFullQualifiedName: RelationshipMercenary.Honest
+    mVar:
+      values: 00
+  - mFullQualifiedName: RelationshipAdvisor.Flirtation
+    mVar:
+      values: 00
+  - mFullQualifiedName: RelationshipAdvisor.Intimate
+    mVar:
+      values: 00
+  - mFullQualifiedName: RelationshipAdvisor.Platonic
+    mVar:
+      values: 00
+  - mFullQualifiedName: RelationshipMistress.Platonic
+    mVar:
+      values: 00
+  - mFullQualifiedName: RelationshipMistress.Flirtation
+    mVar:
+      values: 00
+  - mFullQualifiedName: RelationshipMistress.Noble
+    mVar:
+      values: 00
+  - mFullQualifiedName: RelationshipMistress.Ruthless
+    mVar:
+      values: 00
+  - mFullQualifiedName: RelationshipMistress.Idealist
+    mVar:
+      values: 00
+  - mFullQualifiedName: RelationshipMistress.Intimate
+    mVar:
+      values: 00
+  - mFullQualifiedName: RelationshipMistress.NewVariable
+    mVar:
+      values: 00
+  - mFullQualifiedName: Backstory.Healer
+    mVar:
+      values: 00
+  - mFullQualifiedName: Backstory.FriendHealer
+    mVar:
+      values: 00
+  - mFullQualifiedName: ConvFriend.AskedToLead
+    mVar:
+      values: 00
+  IntVariableCache:
+  - mFullQualifiedName: RelationshipAssassin.Noble
+    mVar:
+      values: 00000000
+  - mFullQualifiedName: RelationshipAssassin.Idealist
+    mVar:
+      values: 00000000
+  - mFullQualifiedName: RelationshipAssassin.Ruthless
+    mVar:
+      values: 00000000
+  - mFullQualifiedName: RelationshipAssassin.Affinity
+    mVar:
+      values: 00000000
+  - mFullQualifiedName: RelationshipScorned.Idealist
+    mVar:
+      values: 00000000
+  - mFullQualifiedName: RelationshipScorned.Ruthless
+    mVar:
+      values: 00000000
+  - mFullQualifiedName: RelationshipScorned.Noble
+    mVar:
+      values: 00000000
+  - mFullQualifiedName: RelationshipScorned.Affinity
+    mVar:
+      values: 00000000
+  - mFullQualifiedName: RelationshipMercenary.Noble
+    mVar:
+      values: 00000000
+  - mFullQualifiedName: RelationshipMercenary.Ruthless
+    mVar:
+      values: 00000000
+  - mFullQualifiedName: RelationshipMercenary.Idealist
+    mVar:
+      values: 00000000
+  - mFullQualifiedName: RelationshipMercenary.Affinity
+    mVar:
+      values: 00000000
+  - mFullQualifiedName: RelationshipAdvisor.Noble
+    mVar:
+      values: 00000000
+  - mFullQualifiedName: RelationshipAdvisor.Ruthless
+    mVar:
+      values: 00000000
+  - mFullQualifiedName: RelationshipAdvisor.Idealist
+    mVar:
+      values: 00000000
+  - mFullQualifiedName: RelationshipAdvisor.Affinity
+    mVar:
+      values: 00000000
+  - mFullQualifiedName: RelationshipMistress.Affinity
+    mVar:
+      values: 00000000
+  - mFullQualifiedName: RelationshipFriend.Noble
+    mVar:
+      values: 00000000
+  - mFullQualifiedName: RelationshipFriend.Idealist
+    mVar:
+      values: 00000000
+  - mFullQualifiedName: RelationshipFriend.Ruthless
+    mVar:
+      values: 00000000
+  StringVariableCache: []
+  LiveBoolVariableCache: []
+  LiveIntVariableCache: []
+  LiveStringVariableCache: []
+  isInitialized: 1
+  mAct1:
+    _VariableStorage: {fileID: -2346060619727389817}
+  mConvAssassin:
+    _VariableStorage: {fileID: -2346060619727389817}
+  mConvMerc:
+    _VariableStorage: {fileID: -2346060619727389817}
+  mConvScorned:
+    _VariableStorage: {fileID: -2346060619727389817}
+  mRelationshipAssassin:
+    _VariableStorage: {fileID: -2346060619727389817}
+  mRelationshipScorned:
+    _VariableStorage: {fileID: -2346060619727389817}
+  mRelationshipMercenary:
+    _VariableStorage: {fileID: -2346060619727389817}
+  mRelationshipAdvisor:
+    _VariableStorage: {fileID: -2346060619727389817}
+  mRelationshipMistress:
+    _VariableStorage: {fileID: -2346060619727389817}
+  mBackstory:
+    _VariableStorage: {fileID: -2346060619727389817}
+  mRelationshipFriend:
+    _VariableStorage: {fileID: -2346060619727389817}
+  mConvFriend:
+    _VariableStorage: {fileID: -2346060619727389817}
+--- !u!114 &-818596830568808226
+MonoBehaviour:
+  m_ObjectHideFlags: 3
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 514f7e1db9d5ea046a9d9baa8d0da88f, type: 3}
+  m_Name: ArticyScriptFragments
+  m_EditorClassIdentifier: 
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -1676762633, guid: df2ec02f61e861546b9427c26ccacb8d, type: 3}
+  m_Name: ArticyDatabase
+  m_EditorClassIdentifier: 
+  mHierarchy: {fileID: 2946500526271064792}
+  mLocalization: {fileID: -2374164859510080725}
+  mInternalProject:
+    mName: VerticalSlice
+    mDetailName: 
+    mId: 5d7b58d7-3519-44da-b987-d608baa5a253
+    mTechnicalName: Hireathconcept
+  mImportedAssets: []
+  mDefaultGlobalVariables: {fileID: -2346060619727389817}
+  mScriptFragments: {fileID: -818596830568808226}
+  mPackages:
+  - PackageName: All objects
+    PackagePath: All objects
+    mIsDefaultPackage: 1
+--- !u!114 &2946500526271064792
+MonoBehaviour:
+  m_ObjectHideFlags: 3
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1655710724, guid: df2ec02f61e861546b9427c26ccacb8d, type: 3}
+  m_Name: HierarchyManager
+  m_EditorClassIdentifier: 
+  serializedNodes: []
